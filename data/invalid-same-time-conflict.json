@@ -1,0 +1,148 @@
+{
+  "epoch": "2020-01-01T00:00:00Z",
+  "measurements": [
+    {
+      "hour": -2,
+      "level": 2.486041,
+      "sigma": 0.15
+    },
+    {
+      "hour": 0,
+      "level": 2.6,
+      "sigma": 0.16
+    },
+    {
+      "hour": 1,
+      "level": 2.368255,
+      "sigma": 0.16999999999999998
+    },
+    {
+      "hour": 2.5,
+      "level": 2.094499,
+      "sigma": 0.15
+    },
+    {
+      "hour": 4,
+      "level": 1.941672,
+      "sigma": 0.16
+    },
+    {
+      "hour": 6,
+      "level": 1.521888,
+      "sigma": 0.16999999999999998
+    },
+    {
+      "hour": 9,
+      "level": 1.881099,
+      "sigma": 0.15
+    },
+    {
+      "hour": 10,
+      "level": 2.379002,
+      "sigma": 0.16
+    },
+    {
+      "hour": 13,
+      "level": 2.631919,
+      "sigma": 0.16999999999999998
+    },
+    {
+      "hour": 15,
+      "level": 2.227924,
+      "sigma": 0.15
+    },
+    {
+      "hour": 18,
+      "level": 1.783519,
+      "sigma": 0.16
+    },
+    {
+      "hour": 21,
+      "level": 1.757347,
+      "sigma": 0.16999999999999998
+    },
+    {
+      "hour": 25,
+      "level": 2.875149,
+      "sigma": 0.15
+    },
+    {
+      "hour": 29,
+      "level": 2.209772,
+      "sigma": 0.16
+    },
+    {
+      "hour": 31,
+      "level": 1.803735,
+      "sigma": 0.16999999999999998
+    },
+    {
+      "hour": 34,
+      "level": 2.069085,
+      "sigma": 0.15
+    },
+    {
+      "hour": 37,
+      "level": 3.062423,
+      "sigma": 0.16
+    },
+    {
+      "hour": 41,
+      "level": 2.393986,
+      "sigma": 0.16999999999999998
+    },
+    {
+      "hour": 45,
+      "level": 1.755837,
+      "sigma": 0.15
+    },
+    {
+      "hour": 49,
+      "level": 3.164596,
+      "sigma": 0.16
+    },
+    {
+      "hour": -2,
+      "level": 3.486041,
+      "sigma": 0.15
+    }
+  ],
+  "frequencies": [
+    0.5,
+    1.0
+  ],
+  "time_scale": 1.0,
+  "candidates": [
+    {
+      "id": "white",
+      "rho": 0,
+      "ridge": 0
+    },
+    {
+      "id": "correlated",
+      "rho": 0.6,
+      "ridge": 0
+    },
+    {
+      "id": "regularized",
+      "rho": 0.6,
+      "ridge": 0.1
+    }
+  ],
+  "windows": {
+    "early": [
+      -2,
+      21
+    ],
+    "validation": [
+      25,
+      34
+    ],
+    "external": [
+      37,
+      49
+    ]
+  },
+  "rank_tolerance": 1e-10,
+  "phase_amplitude_floor": 1e-08
+}
